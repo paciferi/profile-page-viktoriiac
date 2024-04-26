@@ -1,0 +1,134 @@
+/* Write some CSS below */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 1.7px;
+    text-align: center;
+    margin: 30px;
+    padding: 10px 20px;
+    padding-bottom: 50px;
+}
+
+.card-white {
+    padding: 50px;
+    margin: 100px 0;
+    border: 5px solid #b8b7fb;
+    border-radius: 10px;
+    box-shadow: 10px 20px 30px rgb(233, 233, 245);
+    background-color: #b8b7fb;
+    transition: background-color 0.5s; 
+}
+
+.card-white:hover {
+    background-color: white;
+}
+
+.card-white h1 {
+    color: #4c42e1;
+    font-size: 36px;
+    margin-bottom: 20px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.card-white:hover h1 {
+    opacity: 1;
+}
+
+.card-white h2 {
+    color: white;
+    font-size: 24px;
+}
+
+.card-white:hover h2 {
+    color: #4c42e1;
+}
+
+.card-white p {
+    margin-bottom: 10px;
+    font-weight: lighter;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.card-white:hover p {
+    opacity: 1;
+}
+
+.round-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    animation: pulse 1s infinite;
+}
+
+
+.button {
+    display: inline-block;
+    background-color: #6c6ed9;
+    color: white;
+    font-weight: regular;
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 10px 10px 0 #b8b7fb;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #4c42e1; 
+    transform: translate(10px);
+    box-shadow: 0 0 0 #b8b7fb;
+}
+
+.no-hover {
+    transition: none;
+    animation: none;
+    text-align: center;
+    padding: 50px;
+    margin: 100px 0;
+    border: 5px solid #b8b7fb;
+    border-radius: 10px;
+    box-shadow: 10px 20px 30px rgb(233, 233, 245);
+    transition: background-color 0.5s; 
+}
+
+.no-hover-two {
+    transition: none;
+    animation: none;
+    text-align: center;
+}
+
+.container {
+ border-radius: 50px;
+ width: 1000px;
+ margin: 100px auto;
+}
+
+.list-inline {
+ text-decoration: none;
+ padding-left: 0;
+}
+
+.list-inline li {
+ display: inline;
+}
+
+.list-inline li i {
+ font-size: 60px;
+ color: #4c42e1;
+ margin: 0.5px; 
+}
+
+.list-inline li i:hover {
+ opacity: 0.7px;
+}
+
+
+      
